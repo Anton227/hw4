@@ -1,0 +1,197 @@
+/*левый синий блок*/
+.left{
+	background: dodgerblue;
+	width: 15%;
+	height: 1000px;
+	float: left;	
+}
+
+/*правый синий блок*/
+.right{
+	background: dodgerblue;
+	width: 15%;
+	height: 1000px;
+	float: right;
+}
+
+/*левый-правый синий боковой блок*/
+.lr-bottom{
+	background: skyblue;
+	height: 160px;
+	margin-top: 30px;
+}
+/*нижний синий блок*/
+.footer{
+	background: dodgerblue;
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.footer p{
+	font-size: 15px;
+	font-family: sans-serif;
+	color: white;
+}
+
+/*весь центральный блок*/
+.center{
+	background: transparent;
+	width: 70%;
+	margin: 0 auto;
+	height: 1000px;
+}
+
+/*центр_блок-верх*/
+.header{
+	height: 190px;
+	background: white;
+}
+
+/*центр_блок-верх   лого+текст*/
+.logo{
+	/*	background: pink;*/
+	float: left;
+	width: 260px;
+	margin:70px 25px 0px;
+}
+.header p{
+	display: block;
+	/*background: yellow;*/
+	float: left;
+	margin-top: 120px;
+	margin-left: -230px;
+	font-size: 15px;
+	color: dodgerblue;
+	font-family: sans-serif;
+}
+/*центр_блок-верх   правый_текст+флаги */
+.header ul{
+	display: block;
+	/*background: green;*/
+	float: right;
+	margin-top: 10px;
+	margin-right: 30px;
+	font-size: 15px;
+	line-height: 1.2;
+	color:dodgerblue; 
+	font-family: sans-serif;
+}
+.header a{
+	text-decoration: none;
+	color: dodgerblue;
+}
+.countries {
+	width: 420px;
+}
+.countries li{
+	display: inline-block;
+	width: 65px;
+	text-align: center;
+	font-size: 12px;
+}
+.countries img{
+	display: block;
+	margin:10px;
+}
+/*пустой блок сlearfix*/
+.clearfix:after{
+	content:"" ;
+	clear: both;
+	display: block;
+}
+/*центр_блок-главное_фото */
+.foto {
+	width: 100%;
+}
+
+/*центр блок под центральным фото */
+.content{
+	/*	background: lightgrey;*/
+}
+.content a{
+	text-decoration: none;
+}
+.menu{
+	display: block;
+	background: grey;
+}
+.menu ul{
+	display: block;
+}
+.menu li{
+	float: left;
+	width: 13%;
+	background: black;
+	padding: 5px;
+	border: 1px solid #000;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.menu a{
+	color: white;
+}
+
+/*для субменю*/
+
+/*ul.submenu {
+	display: none;
+	position: absolute;
+	width: 120px;
+	top: 37px;
+	left: 0;
+	background-color: white;
+	border: 1px solid red;
+}
+ul.submenu > li {
+	display: block;
+}
+ul.submenu > li > a {
+	display: block;
+	padding: 10px;
+	color: white;
+	background-color: red;
+	text-decoration: none;
+}
+ul.submenu > li > a:hover {
+	text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+	display: block;
+}
+*/
+	/*левый блок в центральном блоке ИНФОРМАЦИЯ*/
+	.info{
+		background: lightgrey;
+		float: left;
+		width: 20%;
+		height: 560px;
+		text-align: center;
+		border: 1px solid grey;
+	}
+	.info p{
+		font-size: 12px;
+		font-family: sans-serif;
+		line-height: 1.5 ;
+	}
+	.text{
+		background: white;
+		float: left;
+		height: 560px;
+	} 
+
+	/*правый блок в центральном блоке НОВОСТИ*/
+	.news{
+		background: lightgrey;
+		float: right;
+		width: 20%;
+		height: 560px;
+		text-align: center;
+		border: 1px solid grey;
+	}
+	.news p{
+		font-size: 12px;
+		font-family: sans-serif;
+		line-height: 1.5 ;
+	}
+
